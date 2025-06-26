@@ -48,7 +48,7 @@ else:
 user_input = np.array([[age, sex, bmi, children, smoker, region, obese_smoker, bmi_category]])
 
 # Load model
-with open("model.pkl", "rb") as file:
+with open("random_forest_model (4).pkl", "rb") as file:
     model = pickle.load(file)
 
 # Prediction
